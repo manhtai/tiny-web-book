@@ -1,12 +1,9 @@
 --- 
+knit: "bookdown::render_book"
 title: "Tiny web"
 author: "Tai M. Vo"
-date: "`r Sys.Date()`"
 site: "bookdown::bookdown_site"
-output:
-  bookdown::pdf_book: default
 documentclass: book
-link-citations: yes
 ---
 
 # Preface {-}
